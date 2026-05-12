@@ -13,9 +13,9 @@ def load_sheet(tab_name):
 
 st.title("🏀 1of1 Pro Am")
 
-free_agent_df = load_sheet("Free Agent")
-combine_game1_df = load_sheet("Combine Game 1 Stats ")
-combine_game2_df = load_sheet("Combine Game 2 Stats ")
+  free_agent_df = load_sheet("Free Agent")
+  combine_game1_df = load_sheet("Combine Game 1 Stats ")
+  combine_game2_df = load_sheet("Combine Game 2 Stats ")
 
 players_tab, game1_tab, game2_tab = st.tabs([
   "👤 PLAYERS",
