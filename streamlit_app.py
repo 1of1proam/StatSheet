@@ -18,7 +18,7 @@ draft_combine1_df = load_sheet("Combine Game 2 ")
 st.header("Free Agent")
 st.dataframe(free_agent_df)
 
-st.header(Combine Game 1")
+st.header("Combine Game 1")
 st.dataframe(draft_combine_df)
 
 st.header("Combine Game 2 ")
