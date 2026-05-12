@@ -7,7 +7,7 @@ free_agent_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx
 
 draft_combine_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet=Draft Combine"
 
-draft_combine_1_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet=Draft Combine 1"
+draft_combine_1_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet=Draft Combine1"
 
 free_agent_df = pd.read_csv(free_agent_url)
 
