@@ -1,22 +1,12 @@
-import pandas as pd
 import streamlit as st
+import pandas as pd
+
+sheet_id = "PASTE_YOUR_SHEET_ID_HERE"
+
+url = f"https://docs.google.com/spreadsheets/d/1Uui_QzqxqfUVDuL0n84zug2BIyYIHuwAKNbpTNWHgI8/edit?gid=0#gid=0"
+
+df = pd.read_csv(url)
 
 st.title("2K League Stats")
 
-data = {
-"Player": ["Player 1", "Player 2", "Player 3"],
-"PPG": [30.2, 25.1, 18.4],
-"APG": [8.1, 6.3, 4.2],
-"RPG": [7.5, 10.1, 5.3]
-}
-
-df = pd.DataFrame(data)
-
-st.subheader("Player Stats")
 st.dataframe(df)
-
-st.subheader("League Leader")
-
-top_scorer = df.loc[df["PPG"].idxmax(), "Player"]
-
-st.write("Top Scorer:", top_scorer)
