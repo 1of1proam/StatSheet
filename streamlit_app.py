@@ -12,8 +12,8 @@ def load_sheet(tab_name):
 st.title("2K League Stats")
 
 free_agent_df = load_sheet("Free Agent")
-draft_combine_df = load_sheet("Combine Game 1 ")
-draft_combine1_df = load_sheet("Combine Game 2 ")
+draft_combine_df = load_sheet("Combine Game 1")
+draft_combine1_df = load_sheet("Combine Game 2")
 
 st.header("Free Agent")
 st.dataframe(free_agent_df)
@@ -21,5 +21,5 @@ st.dataframe(free_agent_df)
 st.header("Combine Game 1")
 st.dataframe(draft_combine_df)
 
-st.header("Combine Game 2 ")
+st.header("Combine Game 2")
 st.dataframe(draft_combine1_df)
