@@ -19,8 +19,8 @@ combine_game2_df = load_sheet("Combine Game 2 Stats ")
 
 players_tab, game1_tab, game2_tab = st.tabs([
   "👤 PLAYERS",
-  "🏆 COMBINE GAME 1 Stats",
-  "🏆 COMBINE GAME 2 Stats"
+  "🏆 Combine Game 1 Stats",
+  "🏆 Combine Game 2 Stats"
 ])
 
 with players_tab:
