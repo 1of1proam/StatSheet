@@ -4,7 +4,7 @@ from urllib.parse import quote
 
 st.set_page_config(page_title="1of1 Pro Am", layout="wide")
 
-sheet_id = "1Uui_QzqxqfUVDuL0n84zug2BIyYTHuwAKNbpTNWHgI8"
+sheet_id = "1Uui_QzqxqfUVDuL0n84zug2BIyYIHuwAKNbpTNWHgI8"
 
 def load_sheet(tab_name):
   encoded_tab = quote(tab_name)
