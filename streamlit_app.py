@@ -28,9 +28,9 @@ with players_tab:
   st.dataframe(free_agent_df, use_container_width=True)
 
 with game1_tab:
-  st.subheader("Combine Game 1")
+  st.subheader("Combine Game 1 Stats")
   st.dataframe(combine_game1_df, use_container_width=True)
 
 with game2_tab:
-  st.subheader("Combine Game 2")
+  st.subheader("Combine Game 2 Stats")
   st.dataframe(combine_game2_df, use_container_width=True)
