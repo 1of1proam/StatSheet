@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from urllib.parse import quote
 
-sheet_id = "1Uui_QzqxqfUVDuL0n84zug2BIyYTHuwAKNbpTNWHgI8"
+sheet_id = "1Uui_QzqxqfUVDuL0n84zug2BIyYIHuwAKNbpTNWHgI8"
 
 def load_sheet(tab_name):
   encoded_tab = quote(tab_name)
