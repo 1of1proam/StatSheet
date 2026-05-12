@@ -23,5 +23,5 @@ st.dataframe(free_agent_df)
 st.header("Draft Combine")
 st.dataframe(draft_combine_df)
 
-st.header("Draft Combine 1")
+st.header("Draft Combine1")
 st.dataframe(draft_combine_1_df)
