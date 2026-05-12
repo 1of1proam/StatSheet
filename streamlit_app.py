@@ -23,8 +23,8 @@ players_tab, combine_tab = st.tabs([
 ])
 
 with players_tab:
-st.subheader("Free Agent")
-st.dataframe(free_agent_df, use_container_width=True)
+  st.subheader("Free Agent")
+  st.dataframe(free_agent_df, use_container_width=True)
 
 with combine_tab:
 
@@ -34,9 +34,9 @@ game1_tab, game2_tab = st.tabs([
 ])
 
 with game1_tab:
-st.subheader("Combine Game 1")
-st.dataframe(combine_game1_df, use_container_width=True)
+  st.subheader("Combine Game 1")
+  st.dataframe(combine_game1_df, use_container_width=True)
 
 with game2_tab:
-st.subheader("Combine Game 2")
-st.dataframe(combine_game2_df, use_container_width=True)
+  st.subheader("Combine Game 2")
+  st.dataframe(combine_game2_df, use_container_width=True)
