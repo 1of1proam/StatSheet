@@ -29,8 +29,8 @@ with players_tab:
 with combine_tab:
 
 game1_tab, game2_tab = st.tabs([
-"Combine Game 1",
-"Combine Game 2"
+  "Combine Game 1",
+  "Combine Game 2"
 ])
 
 with game1_tab:
