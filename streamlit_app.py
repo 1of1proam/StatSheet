@@ -15,10 +15,19 @@ st.markdown(
   <style>
   .stApp {{
   background-image: url("data:image/png;base64,{logo_base64}");
-  background-size: 500px;
-  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+}}
+
+.stDataFrame {{
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 10px;
+}}
+
+h1, h2, h3, p, label {{
+  color: white !important;
 }}
 </style>
 """,
