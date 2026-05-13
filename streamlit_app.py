@@ -34,7 +34,7 @@ h1, h2, h3, p, label {{
 unsafe_allow_html=True
 )
 
-st.set_page_config(page_title="1of1 Pro Am", layout="wide")
+st.set_page_config(page_title="1of1 Pro Am made by ballsnurmoufs", layout="wide")
 
 sheet_id = "1Uui_QzqxqfUVDuL0n84zug2BIyYIHuwAKNbpTNWHgI8"
 
