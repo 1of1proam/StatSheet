@@ -60,7 +60,7 @@ players_tab, game1_tab, game2_tab, draft_tab, teams_tab = st.tabs([
 ])
 
 with players_tab:
-  st.subheader("Free Agent")
+  st.markdown("<h2 style='color: gold;'>Free Agent</h2>", unsafe_allow_html=True)
   st.dataframe(free_agent_df, use_container_width=True)
 
 with game1_tab:
