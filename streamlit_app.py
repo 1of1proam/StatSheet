@@ -22,9 +22,9 @@ teams_df = load_sheet("Teams")
 players_tab, game1_tab, game2_tab, draft_tab, teams_tab = st.tabs([
   " Free Agent Players",
   " Combine Game 1 Stats",
-  " Combine Game 2 Stats"
-  "Draft"
-  "Teams"
+  " Combine Game 2 Stats",
+  " Draft ",
+  " Teams "
 ])
 
 with players_tab:
