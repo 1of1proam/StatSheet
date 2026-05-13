@@ -1,6 +1,29 @@
 import streamlit as st
 import pandas as pd
 from urllib.parse import quote
+import base64
+
+def get_base64(file_path):
+  with open(file_path, "rb") as f:
+    data = f.read()
+  return base64.b64encode(data).decode()
+
+logo_base64 = get_base64("logo.png")
+
+st.markdown(
+  f"""
+  <style>
+  .stApp {{
+  background-image: url("data:image/png;base64,{logo_base64}");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}}
+</style>
+""",
+unsafe_allow_html=True
+)
 
 st.set_page_config(page_title="1of1 Pro Am", layout="wide")
 
@@ -11,7 +34,7 @@ def load_sheet(tab_name):
   url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={encoded_tab}"
   return pd.read_csv(url)
 
-st.title("🏀 1of1 Pro Am")
+st.title(" 1of1 Pro Am")
 
 free_agent_df = load_sheet("Free Agent")
 combine_game1_df = load_sheet("Combine Game 1 Stats")
